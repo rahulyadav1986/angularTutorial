@@ -1,0 +1,38 @@
+<div class="main_user_wrapper d-flex align-items-center justify-content-center">
+    <div class="main_form_area d-flex justify-content-center">
+        <div class="form_section d-flex flex-column align-items-center">
+            <a href="" class="logo"><img src="assets/images/logo.png" alt=""></a>
+            <h1>Create an account</h1>
+            <p>Setup a new account in a minute.</p>
+            <div class="form_field_area">
+                <div class="input_back">
+                    <label for="email" class="d-flex align-items-center">
+                        <span><img src="assets/images/man.svg" alt=""></span>                        
+                        Username
+                    </label>
+                    <input type="text" name="user" id="user" autocomplete="off">
+                </div>
+                <div class="input_back">
+                    <label for="email" class="d-flex align-items-center">
+                        <span><img src="assets/images/mail.svg" alt=""></span>                        
+                        Email Address
+                    </label>
+                    <input type="text" name="email" id="email" autocomplete="off">
+                </div>
+                <div class="input_back">
+                    <label for="email" class="d-flex align-items-center">
+                        <span><img src="assets/images/password.svg" alt=""></span>                        
+                        Password
+                    </label>
+                    <input type="password" name="password" id="password" autocomplete="off">
+                </div>
+            </div>
+           
+            <div class="input_button btn">
+                <input type="submit" value="register" (click)="gotoDashboard()">
+            </div> 
+            <p>Don't have an account?<a [routerLink]="['/login']"> Login here</a></p>  
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,42 @@
+<ng-container
+*ngIf="router.url === '/dashboard' ||
+router.url === '/home'; then mainheader ; else blankheader"></ng-container>
+
+<ng-template #mainheader>
+    <header>
+        <div class="container d-flex align-items-center justify-content-between">
+            <a [routerLink]="['/dashboard']" class="logo"><img src="assets/images/logo.png" alt=""></a>
+            <div class="right_details d-flex align-items-center">
+                <div class="search"><img src="assets/images/search.png" alt=""></div>
+                <div class="notification">
+                    <img src="assets/images/bell.png" alt="">
+                </div>
+                <div class="user_details d-flex align-items-center" (click)="click_dropdown()">
+                    <span><img src="assets/images/avatar-3.jpg" alt=""></span>
+                    Marie N.
+                    <div class="drop_down" *ngIf="dropdown">
+                        <h4>Welcome to Marie N.</h4>
+                        <ul class="menu">
+                            <li >
+                                <a href="" class="d-flex align-items-center"><span><img src="assets/images/man.svg" alt=""></span>                                
+                                Profile</a>
+                                
+                            </li>
+                            <li>
+                                <a href=""  class="d-flex align-items-center"><span><img src="assets/images/mail.svg" alt=""></span>                                
+                                Message</a>
+                                
+                            </li>
+                            <li>
+                                <a [routerLink]="['/login']" (click)="click_dropdown()"  class="d-flex align-items-center"><span><img src="assets/images/password.svg" alt=""></span>                                
+                                    Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </header>
+</ng-template>
+<ng-template #blankheader></ng-template>
+

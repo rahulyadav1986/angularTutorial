@@ -1,0 +1,202 @@
+{
+  "Users":[
+      {
+          "id":1,
+          "name":"rahul yadav",
+          "email":"rahullooksforward@gmail.com",
+          "phone":1234567890,
+          "companyName":"Codearts Solutions PVT LTD",
+          "city":"Barasat",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":743248       
+      },
+      {
+          "id":2,
+          "name":"abishek yadav",
+          "email":"abishek@gmail.com",
+          "phone":9152368975,
+          "companyName":"ABC Solutions PVT LTD",
+          "city":"Kolkata",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":700015       
+      },
+      {
+          "id":3,
+          "name":"amit das",
+          "email":"amitdas@gmail.com",
+          "phone":9143116017,
+          "companyName":"Sigma LLc",
+          "city":"Kolkata",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":700012       
+      },
+      {
+          "id":4,
+          "name":"debarshi kirtania",
+          "email":"dev@gmail.com",
+          "phone":9142556699,
+          "companyName":"D.K LLc",
+          "city":"Howrah",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":700452       
+      },
+      {
+          "id":5,
+          "name":"samrat das",
+          "email":"samrat@gmail.com",
+          "phone":9175889688,
+          "companyName":"Spaceo PVT LTD",
+          "city":"kolkata",
+          "state":"West Bengal",
+          "country":"South Africa",
+          "zipCode":700015       
+      },
+      {
+          "id":6,
+          "name":"puja das",
+          "email":"puja@gmail.com",
+          "phone":9143225566,
+          "companyName":"Readymade PVT LTD",
+          "city":"kolkata",
+          "state":"West Bengal",
+          "country":"South Africa",
+          "zipCode":700452       
+      },
+      {
+          "id":7,
+          "name":"rahul yadav",
+          "email":"rahullooksforward@gmail.com",
+          "phone":1234567890,
+          "companyName":"Codearts Solutions PVT LTD",
+          "city":"Barasat",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":743248       
+      },
+      {
+          "id":8,
+          "name":"abishek yadav",
+          "email":"abishek@gmail.com",
+          "phone":9152368975,
+          "companyName":"ABC Solutions PVT LTD",
+          "city":"Kolkata",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":700015       
+      },
+      {
+          "id":9,
+          "name":"amit das",
+          "email":"amitdas@gmail.com",
+          "phone":9143116017,
+          "companyName":"Sigma LLc",
+          "city":"Kolkata",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":700012       
+      },
+      {
+          "id":10,
+          "name":"debarshi kirtania",
+          "email":"dev@gmail.com",
+          "phone":9142556699,
+          "companyName":"D.K LLc",
+          "city":"Howrah",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":700452       
+      },
+      {
+          "id":11,
+          "name":"samrat das",
+          "email":"samrat@gmail.com",
+          "phone":9175889688,
+          "companyName":"Spaceo PVT LTD",
+          "city":"kolkata",
+          "state":"West Bengal",
+          "country":"South Africa",
+          "zipCode":700015       
+      },
+      {
+          "id":12,
+          "name":"puja das",
+          "email":"puja@gmail.com",
+          "phone":9143225566,
+          "companyName":"Readymade PVT LTD",
+          "city":"kolkata",
+          "state":"West Bengal",
+          "country":"South Africa",
+          "zipCode":700452       
+      },
+      {
+          "id":13,
+          "name":"rahul yadav",
+          "email":"rahullooksforward@gmail.com",
+          "phone":1234567890,
+          "companyName":"Codearts Solutions PVT LTD",
+          "city":"Barasat",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":743248       
+      },
+      {
+          "id":14,
+          "name":"abishek yadav",
+          "email":"abishek@gmail.com",
+          "phone":9152368975,
+          "companyName":"ABC Solutions PVT LTD",
+          "city":"Kolkata",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":700015       
+      },
+      {
+          "id":15,
+          "name":"amit das",
+          "email":"amitdas@gmail.com",
+          "phone":9143116017,
+          "companyName":"Sigma LLc",
+          "city":"Kolkata",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":700012       
+      },
+      {
+          "id":16,
+          "name":"debarshi kirtania",
+          "email":"dev@gmail.com",
+          "phone":9142556699,
+          "companyName":"D.K LLc",
+          "city":"Howrah",
+          "state":"West Bengal",
+          "country":"India",
+          "zipCode":700452       
+      },
+      {
+          "id":17,
+          "name":"samrat das",
+          "email":"samrat@gmail.com",
+          "phone":9175889688,
+          "companyName":"Spaceo PVT LTD",
+          "city":"kolkata",
+          "state":"West Bengal",
+          "country":"South Africa",
+          "zipCode":700015       
+      },
+      {
+          "id":18,
+          "name":"puja das",
+          "email":"puja@gmail.com",
+          "phone":9143225566,
+          "companyName":"Readymade PVT LTD",
+          "city":"kolkata",
+          "state":"West Bengal",
+          "country":"South Africa",
+          "zipCode":700452       
+      }
+  ]
+}

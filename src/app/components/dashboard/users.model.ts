@@ -1,0 +1,31 @@
+export class Users{
+    id:any;
+    name:any;
+    email:any;
+    phone:any;
+    companyName:any;
+    city:any;
+    state:any;
+    country:any;
+    zipCode:any
+    constructor(id:any,
+        name:any,
+        email:any,
+        phone:any,
+        companyName:any,
+        city:any,
+        state:any,
+        country:any,
+        zipCode:any){
+             this.id=id,
+             this.name=name,
+             this.email=email,
+             this.phone=phone,
+             this.companyName=companyName,
+             this.city=city,
+             this.state=state,
+             this.country=country,
+             this.zipCode=zipCode
+
+    }
+}

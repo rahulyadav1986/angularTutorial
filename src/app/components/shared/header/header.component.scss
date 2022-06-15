@@ -1,0 +1,93 @@
+header{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    background-color: var(--primary-color);
+    .logo{
+        width: 10rem;
+        img{
+            filter:brightness(0) invert(1);
+            width: 100%;
+        }
+    }
+    .right_details{
+        .search{
+            margin-right: 3rem;
+        }
+        .notification{
+            margin-right: 3rem;
+        }
+        .search, .notification{
+            img{
+                filter:brightness(0) invert(1);
+            }
+        }
+        .user_details{
+            color: var(--white-color);
+            font-weight: 600;
+            font-size: 14px;
+            padding-right: 3rem;
+            background-image: url('../../../../assets/images/arrow.png');
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: 8%;
+            position: relative;
+            cursor: pointer;
+            img{
+                width: 3.6rem;
+                height: 3.6rem;
+                border-radius: 100%;
+                padding: 3px;
+                border: rgba(255,255,255,.2) 1px solid;
+                border-radius: 100%;
+                object-fit: cover;
+                margin-right: 12px;
+            }
+            .drop_down{
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 20rem;
+                background-color: var(--white-color);
+                
+                border-radius: 8px;
+                box-shadow: 0 3px 6px rgba(0,0,0,.1);
+                h4{
+                    font-size: 12px;
+                    color: var(--description-color);
+                    font-weight: 400;
+                    padding: 2rem 0 2rem 2rem;
+                }
+                .menu{
+                    li{
+                        width: 100%;
+                        margin-bottom: 1px;
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                      a{
+                        font-size: 14px;
+                        font-weight: 400;
+                        width: 100%;
+                        background-color: #f7f7f7;
+                        padding: 10px 10px 10px 20px;
+                        span{
+                            width: 3.5rem;
+                        }
+                        img{
+                            border-radius: 0;
+                            width: auto;
+                            height: auto;
+                            padding: 0;
+                            border: none;
+                            margin-right: 0;
+                        }
+                      }  
+                    }
+                }
+            }
+        }
+    }
+}
+
+

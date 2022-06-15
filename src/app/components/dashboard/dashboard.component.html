@@ -1,0 +1,61 @@
+<div class="dashboard_area pt">
+    <div class="container">
+        <h1 class="d-flex align-items-center"><img src="assets/images/man.svg" alt=""> Employee Details</h1>
+        <div class="table_area">
+            <div class="filter_area">
+                <input type="text" name="searchCity" [(ngModel)]="searchCity" (ngModelChange)="SearchCityMethod()"  placeholder="Search by City..">
+                <input type="text" name="searchCountry" [(ngModel)]="searchCountry" (ngModelChange)="SearchCountryMethod()"  placeholder="Search by Country..">
+            </div>
+            <table>
+                <thead>                    
+                    <tr>
+                        <th (click)="sort('id')">ID <img src="assets/images/sort-down.png" alt=""></th>
+                        <th (click)="sort('name')">Name <img src="assets/images/sort-down.png" alt=""></th>
+                        <th (click)="sort('email')">Email <img src="assets/images/sort-down.png" alt=""></th>
+                        <th (click)="sort('phone')">Phone No <img src="assets/images/sort-down.png" alt=""></th>
+                        <th (click)="sort('companyName')">Company Name <img src="assets/images/sort-down.png" alt=""></th>
+                        <th (click)="sort('city')">City <img src="assets/images/sort-down.png" alt=""></th>
+                        <th (click)="sort('state')">state <img src="assets/images/sort-down.png" alt=""></th>
+                        <th (click)="sort('country')">country <img src="assets/images/sort-down.png" alt=""></th>
+                        <th (click)="sort('zipCode')">zip code <img src="assets/images/sort-down.png" alt=""></th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr *ngIf="loading">
+                        <td colspan="12"><img src="assets/images/loader.gif" alt=""></td>
+                    </tr>
+                    <tr *ngFor="let user of users | orderBy: key: reverse | paginate:{itemsPerPage: 10, currentPage: p}; index as i ">
+                        <td data-label="ID">{{user.id}}</td>                        
+                        <td data-label="Name">{{user.name}}</td>
+                        <td data-label="Email">{{user.email}}</td>
+                        <td data-label="Phone No">{{user.phone}}</td>
+                        <td data-label="Company Name">{{user.companyName}}</td>
+                        <td data-label="City">{{user.city}}</td>
+                        <td data-label="State">{{user.state}}</td>
+                        <td data-label="Country">{{user.country}}</td>
+                        <td data-label="Zip Code">{{user.zipCode}}</td>
+                    </tr>
+                </tbody>
+            </table> 
+            <div class="pagination_area d-flex justify-content-end">
+                <pagination-controls (pageChange)="p = $event" ></pagination-controls>
+            </div>
+
+            <form action="">
+                <input type="text" #id name="id" id="id">
+                <input type="text" #name name="name" id="name">
+                <input type="email" #email name="email" id="email">
+                <input type="text" #phone name="phone" id="phone">
+                <input type="text" #companyName name="companyName" id="companyName">
+                <input type="text" #city name="city" id="city">
+                <input type="text" #state name="state" id="state">
+                <input type="text" #country name="country" id="country">
+                <input type="text" #zipCode name="zipCode" id="zipCode">
+            </form>
+
+            <button (click)="saveuser(id,name,email,phone,companyName,city,state,country,zipCode)">save users</button>
+            
+        </div>
+    </div>
+</div>
